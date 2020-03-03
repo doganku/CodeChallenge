@@ -14,7 +14,14 @@ exports.config = {
       waitForTimeout: 5000,
       getPageTimeout: 20000,
       show: true
-    }
+    },
+    REST: {
+			endpoint: "https://api.chucknorris.io/",
+			onRequest: () => {
+				//request.headers.auth = "123";
+			}
+		}
+
   },
   include: {
     I: './steps_file.js'
