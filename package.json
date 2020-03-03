@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test:report-junit": "codeceptjs run --reporter mocha-junit-reporter",
-    "test:report-mochawesome": "codeceptjs run --reporter mochawesome"
+    "test:report-mochawesome": "codeceptjs run --reporter mochawesome && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.2.0",
     "codeceptjs": "^2.5.0",
     "mocha-junit-reporter": "^1.22.0",
     "mocha-multi": "^1.1.0",

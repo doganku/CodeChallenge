@@ -6,6 +6,6 @@ Scenario('successfull login', (I) => {
   I.fillField('#username', 'tomsmith');
   I.fillField('#password', 'SuperSecretPassword!');
   I.click('#login button');
-  I.seeElement('#logout');
+  I.see('Logout');
 
 });
