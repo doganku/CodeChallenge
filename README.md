@@ -1,4 +1,4 @@
-## Kuntay Dogan's QA Specialist code challenge
+## Kuntay Dogan's code challenge
 Simple project setup using various libraries to test UI and API. 
 Both API and UI tests can be run with the same command.
 
